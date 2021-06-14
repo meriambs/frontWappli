@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container-up{
+	max-width: 1170px;
+	margin:auto;
+}
+.row-up{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.uper{
+	background-color: #ffffff;
+    padding: 70px 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+	    color: #a59d9d;
+    margin-bottom: 56px;
+        margin-top: 12px;
+    font-family: math;
+    font-size: 28px;
+    font-style: revert;
+}
+.up-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.up-col h2{
+	font-size: 18px;
+	color: #3a3a3a;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.up-col h2::before{
+	    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: -10px;
+    background-color: #ad03cf;
+    height: 3px;
+    box-sizing: border-box;
+    width: 74px;
+}
+.up-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.up-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #959595;
+	display: block;
+	transition: all 0.3s ease;
+}
+ .up-col ul li a:hover{
+	padding-left: 8px;
+} 
+.up-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+ .up-col .social-links a:hover{
+	 color: #24262b;
+	background-color: #b1b1b1; 
+} 
+
+/*responsive*/
+@media(max-width: 767px){
+  .up-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .up-col{
+    width: 100%;
+}
+}
